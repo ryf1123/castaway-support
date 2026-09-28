@@ -14,6 +14,12 @@ Focus sessions, catches, exploration progress and preferences are stored locally
 
 With your permission, the app schedules local reminders when a focus session ends and displays a Live Activity countdown. These features do not send your session records to the developer. You can control these permissions in iOS Settings.
 
+## TestFlight testing
+
+If you install a beta through TestFlight, Apple collects and makes available to the developer crash reports, usage information and feedback you submit. Depending on how you join the test, this may include your name and email address. This is provided by Apple's testing service, not an analytics SDK built into Cast Away. The developer uses this information to diagnose problems and improve the app; it is not used for advertising. Do not include sensitive information in feedback or screenshots.
+
+Apple describes its handling and retention of testing data in [TestFlight & Privacy](https://www.apple.com/legal/privacy/data/en/test-flight/). This section applies to TestFlight testing separately from the app's local session storage.
+
 ## Support website
 
 This support site is hosted by GitHub. Reading it or submitting a support issue is separate from using the app and is subject to [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
@@ -41,6 +47,8 @@ For support or privacy questions, [open an issue](https://github.com/ryf1123/cas
 专注会话、渔获、探索进度和偏好设置保存在设备本地。应用不提供开发者运营的云同步服务。设备备份由 Apple 和你的设备设置管理；删除应用会移除本地数据，备份中的副本需要通过 Apple 的备份设置单独管理。
 
 获得你的许可后，应用会安排专注结束的本地通知，并显示实时活动倒计时。这些功能不会向开发者发送会话记录。你可以在 iOS 设置中控制相关权限。
+
+如果通过 TestFlight 安装测试版，Apple 会收集并向开发者提供崩溃报告、使用信息及你提交的反馈；根据加入测试的方式，可能包括姓名和邮箱。这来自 Apple 的测试服务，不是远岸内置的统计 SDK。开发者将这些信息用于排查问题和改进应用，不用于广告。请勿在反馈或截图中包含敏感信息。Apple 对测试数据的处理及保留方式见 [TestFlight 隐私说明](https://www.apple.com/legal/privacy/data/en/test-flight/)。测试服务的数据处理与应用本地会话存储分开说明。
 
 本支持网站由 GitHub 托管。访问网页和提交问题与使用应用本身不同，受 GitHub 隐私声明约束。GitHub Issues 中的提问、附件及自愿提供的信息公开可见，开发者仅将这些反馈用于答复和排查问题。请勿公开个人或敏感信息；可以通过 GitHub 的功能编辑或删除自己提交的内容，具体受 GitHub 政策约束。
 
