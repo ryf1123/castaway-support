@@ -8,7 +8,17 @@ Applies to: Cast Away (bundle identifier `com.ryf1123.castaway`), version 1.0.
 
 Cast Away works offline and does not require an account. The developer does not collect, transmit, sell or share personal data through the app. The app has no advertising, third-party analytics or tracking SDKs.
 
-Focus sessions, catches, exploration progress and preferences are stored locally on your device. The app does not run a developer-operated cloud sync service. Device backups, if enabled, are managed by Apple and your device settings. Deleting the app removes its local data; copies in device backups are managed separately through Apple's backup controls.
+Focus sessions, catches, exploration progress and preferences are stored locally on your device. The app does not run a developer-operated cloud sync service. Device backups, if enabled, are managed by Apple and your device settings. Deleting the app removes its local data; copies in device backups are managed separately through Apple's backup controls, and files you exported stay where you saved them.
+
+## Exporting your journeys
+
+You can export your journey records as a JSON or CSV file from the Fish Book's journey list. An export only happens when you start it; the app never exports or uploads records on its own, and never sends an export to the developer.
+
+The file contains the journeys in the range you choose (all journeys, or those matching the current filter): start and end times, planned and actual durations, whether each journey ran to the end, destination and weather, and the species, lengths and times of the catches you kept. It contains no name, account or contact details.
+
+You choose where the file is saved through the iOS file exporter. If you choose iCloud Drive or another cloud or file service, that provider stores and syncs the file under its own terms.
+
+Deleting the app does not delete files you have exported; you manage those copies yourself. An export is not a backup the app can restore from, and importing it back is not currently supported.
 
 ## Notifications and Live Activities
 
@@ -44,7 +54,15 @@ For support or privacy questions, [open an issue](https://github.com/ryf1123/cas
 
 远岸离线运行，无需账号。开发者不会通过应用收集、传输、出售或共享个人数据。应用没有广告、第三方统计或跟踪 SDK。
 
-专注会话、渔获、探索进度和偏好设置保存在设备本地。应用不提供开发者运营的云同步服务。设备备份由 Apple 和你的设备设置管理；删除应用会移除本地数据，备份中的副本需要通过 Apple 的备份设置单独管理。
+专注会话、渔获、探索进度和偏好设置保存在设备本地。应用不提供开发者运营的云同步服务。设备备份由 Apple 和你的设备设置管理；删除应用会移除本地数据，备份中的副本需要通过 Apple 的备份设置单独管理，你导出的文件也需要自行管理。
+
+你可以在图鉴的旅程列表中把旅程记录导出为 JSON 或 CSV 文件。导出只会由你主动发起；应用不会自行导出或上传记录，也不会把导出文件发送给开发者。
+
+文件包含你所选范围（全部旅程或当前筛选结果）内的旅程：开始和结束时间、计划与实际时长、是否走完全程、目的地与天气，以及带回的渔获的物种、尺寸和时间。文件不包含姓名、账号或联系方式。
+
+保存位置由你通过 iOS 文件导出面板选择。若选择 iCloud 云盘或其他云端/文件服务，文件由该服务按其自身规则存储和同步。
+
+删除应用不会删除已导出的文件，这些副本需要你自行管理。导出文件不是应用可以用来恢复的备份，目前也不支持导回。
 
 获得你的许可后，应用会安排专注结束的本地通知，并显示实时活动倒计时。这些功能不会向开发者发送会话记录。你可以在 iOS 设置中控制相关权限。
 
